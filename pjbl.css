@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #eef5ff;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.nav{
+    background-color: #89c2ff;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.nav h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.Beranda{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.Beranda img{
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.Beranda h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #3b82f6;
+}
+
+.Beranda p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #89c2ff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #5aa9ff;
+}
+
+#Projek{
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#Projek h2{
+    width: 100%;
+    font-size: 40px;
+    color: #3b82f6;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.Form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #3b82f6;
+    font-size: 45px;
+}
+
+form{
+    width: 650px;
+}
+
+fieldset{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #cfe8ff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+form div{
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+label{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #bcdcff;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+    border-color: #5aa9ff;
+    box-shadow: 0 0 5px rgba(90,169,255,0.5);
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    width: auto;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.submit-btn{
+    width: 100%;
+    background-color: #89c2ff;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: #5aa9ff;
+}
+
+#output{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    width: 650px;
+}
+
+#output .card{
+    background-color: #dbeafe;
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+#output .card p{
+    margin: 8px 0;
+}
+
+#output .card b{
+    color: #2563eb;
+}

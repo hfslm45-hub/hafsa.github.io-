@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Hafsa</title>
+
+    <link rel="stylesheet" href="pjbl.css">
+</head>
+<body>
+
+    <header class="nav">
+        <h1>Portofolio</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#Beranda">Beranda</a></li>
+                <li><a href="#Projek">Projek</a></li>
+                <li><a href="#Form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Beranda" id="Beranda">
+
+       <img src="hafsa.jpg.jpg" width="400" height="500" alt="Hafsa">
+
+        <h2>Selamat Datang</h2>
+
+        <p>Halo Semua, Saya Hafsa Lanika Mahani</p>
+        <p>Portofolio ini menampilkan data diri saya.</p>
+
+    </section>
+
+    <section class="Projek" id="Projek">
+
+    <h2>Projek Saya</h2>
+
+    <div class="card">
+        <h3>Kasir Sederhana</h3>
+        <p>Aplikasi menghitung total belanja.</p>
+    </div>
+
+    <div class="card">
+        <h3>Website Portofolio</h3>
+        <p>Website sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+    </div>
+
+    <div class="card">
+        <h3>Kalkulator</h3>
+        <p>Aplikasi perhitungan sederhana.</p>
+    </div>
+
+    </section>
+
+   <section class="Form" id="Form">
+
+    <h2>Form Data Diri</h2>
+
+    <form id="myForm">
+        <fieldset>
+
+            <div>
+                <label>Nama Lengkap :</label><br>
+                <input type="text" name="nama" id="nama" required>
+            </div>
+
+            <div>
+                <label>Alamat:</label><br>
+                <textarea name="alamat" id="alamat" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <label>Tempat Lahir :</label><br>
+                <input type="text" name="tempat" id="tempat" required>
+            </div>
+
+            <div>
+                <label>Tanggal Lahir: </label><br>
+                <input type="date" name="tanggal" id="tanggal" required>
+            </div>
+
+            <div>
+                <label>Nomor HP: </label><br>
+                <input type="text" name="hp" id="hp" required>
+            </div>
+
+            <div>
+                <label>Email: </label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Masukkan Password" required>
+            </div>
+
+            <div>
+                <label>Jenis Kelamin :</label><br>
+
+                <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </div>
+
+            <div>
+                <label>Agama :</label><br>
+
+                <select id="agama">
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Buddha</option>
+                    <option>Konghucu</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Hobi :</label><br>
+
+                <input type="checkbox" name="hobi" value="Membaca"> Membaca
+
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+
+                <input type="checkbox" name="hobi" value="Gaming"> Gaming
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+
+        </fieldset>
+    </form>
+
+    <div id="output"></div>
+
+    </section>
+
+    <script src="pjbl.js"></script>
+
+</body>
+</html>
